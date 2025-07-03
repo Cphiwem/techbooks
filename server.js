@@ -23,3 +23,14 @@ app.use(router);
 app.listen(8000, () => {
   console.log("JSON Server is running on http://localhost:8000");
 });
+
+// {
+//   "/products": "/444/products",
+//   "/products/:id": "/444/products/:id",
+//   "/featured_products": "/444/featured_products",
+//   "/featured_products/:id": "/444/featured_products/:id",
+//   "/users": "/600/users",
+//   "/users/:id": "/600/users/:id",
+//   "/orders": "/660/orders",
+//   "/orders/:id": "/660/orders/:id"
+// }
